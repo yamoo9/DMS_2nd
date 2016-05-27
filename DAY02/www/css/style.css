@@ -1,0 +1,83 @@
+/*
+
+h1, p 요소를 화면 가운데 배치하라
+
+*/
+
+/*Style Module (조립 가능한 작은 단위)*/
+
+/*[id="header"]*/
+/*#header {
+	border: 10px solid;
+}
+
+div {
+	width: 400px;
+	border: 2px dotted;
+}*/
+
+/*[class="align-right"]*/
+/*.align-right {
+	text-align: right;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.align-justify {
+	text-align: justify;
+}*/
+
+/*본문 디자인*/
+body {
+	margin: 100px 0;
+	font-family: "Jeju Myeongjo", Serif;
+	line-height: 1.54;
+	color: #414243;
+	letter-spacing: -0.03em;
+}
+
+#page {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#page p {
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+/*이미지 프레임 디자인(설계)*/
+.image-frame {
+	margin-bottom: 20px;
+	border: 1px solid;
+	padding: 10px;
+	background: #fff;
+}
+
+.image-frame-black {
+	background: #000;
+}
+
+.image-frame-round {
+	border-radius: 4px;
+}
+
+.row {
+	margin-bottom: 60px;
+}
+
+.row img {
+	width: 30%;
+	height: auto;
+	vertical-align: top;
+}
+
+.oblique {
+	font-family: "Times New Roman";
+ 	font-style: italic;
+}
+}
