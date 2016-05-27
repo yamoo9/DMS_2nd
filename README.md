@@ -184,6 +184,13 @@
 
 -
 
+#### 1-2. WordPress 로컬 설치/설정
+
+- [MAMP](https://www.mamp.info/en/downloads/)
+
+
+-
+
 ### 참고 주소
 
 - [entitycode.com](http://entitycode.com/)
