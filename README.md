@@ -1,6 +1,8 @@
 ###### DMS(Digital Marketing School), Fast Campus
 # Front-End Develop Course
 
+![Front-End Develop](https://s-media-cache-ak0.pinimg.com/736x/df/ac/a1/dfaca128e49d957cfc0a1574d84e839d.jpg)
+
 ### 테스트
 
 - [디마스 『 프론트엔드 웹 2일차 』 TEST](http://goo.gl/forms/vKj8mTWcbGA9JqJ03)
