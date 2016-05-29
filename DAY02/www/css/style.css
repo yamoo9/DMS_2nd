@@ -1,35 +1,9 @@
-/*
+/*! style.css © yamoo9.net, 2016 */
 
-h1, p 요소를 화면 가운데 배치하라
-
-*/
-
-/*Style Module (조립 가능한 작은 단위)*/
-
-/*[id="header"]*/
-/*#header {
-	border: 10px solid;
-}
-
-div {
-	width: 400px;
-	border: 2px dotted;
-}*/
-
-/*[class="align-right"]*/
-/*.align-right {
-	text-align: right;
-}
-
-.align-center {
-	text-align: center;
-}
-
-.align-justify {
-	text-align: justify;
-}*/
-
-/*본문 디자인*/
+/**
+ * --------------------------------
+ * Body, 본문 디자인
+ * ----------------------------- */
 body {
 	margin: 100px 0;
 	font-family: "Jeju Myeongjo", Serif;
@@ -38,6 +12,10 @@ body {
 	letter-spacing: -0.03em;
 }
 
+/**
+ * --------------------------------
+ * Page, 페이지 디자인
+ * ----------------------------- */
 #page {
 	width: 960px;
 	margin-left: auto;
@@ -50,7 +28,10 @@ body {
 	margin-bottom: 20px;
 }
 
-/*이미지 프레임 디자인(설계)*/
+/**
+ * --------------------------------
+ * 이미지 프레임 디자인(설계)
+ * ----------------------------- */
 .image-frame {
 	margin-bottom: 20px;
 	border: 1px solid;
@@ -66,6 +47,10 @@ body {
 	border-radius: 4px;
 }
 
+/**
+ * --------------------------------
+ * Row, 행 디자인
+ * ----------------------------- */
 .row {
 	margin-bottom: 60px;
 }
@@ -76,8 +61,11 @@ body {
 	vertical-align: top;
 }
 
+/**
+ * --------------------------------
+ * Oblique, 기울인 ! 디자인
+ * ----------------------------- */
 .oblique {
 	font-family: "Times New Roman";
  	font-style: italic;
-}
 }

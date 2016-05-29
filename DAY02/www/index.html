@@ -3,36 +3,58 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>413프로젝트: 명조체 공간</title>
-		<!-- 웹폰트 -->
+
+		<!-- 웹폰트: 무료 웹폰트 사용. 유료 폰트의 경우 사용료를 내야 한다. -->
 		<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/jejumyeongjo.css">
-		<!-- 스타일 문서 -->
+
+		<!-- 스타일 문서: 외부의 스타일 문서를 HTML 문서에 연결한다. -->
+		<!-- rel 속성은 relation. 즉 '관계성'을 말한다. -->
+		<!-- href 속성은 hyperlink reference. 즉 '참조 경로'. 연결될 파일의 경로를 설정한다. -->
 		<link rel="stylesheet" href="css/style.css">
+
 	</head>
 	<body>
-		
+
+		<!-- #page: 페이지 식별자 -->
 		<div id="page">
+
+			<!-- h1: 대제목 -->
 			<h1>413프로젝트-화가 치밀어 오를 때</h1>
-			
+
+			<!-- Paragraph: 단락 -->
 			<P>일요일, 출근을 했다. 늘어지게 자겠다고 마음먹고 자는데 아침에 걸려온 상사의 업무 전화에 회사로 나올 수 밖에 없었다.</P>
-			
+
+			<!-- span: 스팬(인라인 요소, div와 마찬가지로 의미가 없다. 묶음 역할) -->
 			<p>"명조씨~ 부탁해<span class="oblique">!</span>"</p>
-			
+
 			<p>급한 일도 아니건만, 상사는 얄밉게도 기어이 나를 회사로 불러드렸다.</P>
-			
+
 			<p>사무실로 들어와 모니터를 켜며 앉았다. 나와 같이 출근한 이들의 신경질적인 타자 소리에 참을 수 없는 화가 치밀어 올랐다. 메일을 확인하다 더 이상 사무실에 앉아 있을 수 없겠다 싶어 급하게 노트북만 챙겨 회사건물 밖으로 뛰쳐나왔다. 아직 5월밖에 되지 않았는데 날씨는 또 왜이리 더운지 숨이 막혔다.</p>
+
+			<!-- img: 이미지. src, alt 속성은 필수! (접근성 관점), class 속성은 식별자로 조립 가능한 스타일 모듈을 추가할 때 사용. -->
 			<img class="image-frame image-frame-black image-frame-round" src="images/IMG_1_fix.jpg" alt="회사 건물 밖">
+
 			<P>주변 카페나 가자 싶어 골목 안으로 들어섰다. 멍 때리며 걷다 먹자골목을 지나 주택가까지 들어서게 되어 돌아가야겠다고 생각하던 찰나 색다르다 싶은 주택을 발견했다. 카페였다! 저 곳이다 싶어 걸음을 서둘렀다. 돌과 올리브그린색의 천막 그리고 크고 작은 화분들이 입구에 놓여져 있었다.</P>
+
+			<!-- div: 디비전 (블록 요소, span과 마찬가지로 의미가 없다. 묶음 역할) -->
 			<div class="row">
 				<img src="images/IMG_2.JPG" width="360" alt="카페 모습">
 				<img src="images/IMG_3.JPG" width="360" alt="카페입구1">
 				<img src="images/IMG_4.JPG" width="360" alt="카페입구2">
 			</div>
+
 			<P>“어서오세요.”</P>
+
 			<p>친절한 직원의 인사에, 전혀 생각 지도 못했던 카페 분위기에 흉측스러웠을 내 표정이 조금은 펴졌으리라.</p>
+
 			<p>“아이스 아메리카노랑 오렌지쿠헨 하나 주세요.”</p>
+
 			<p>주문을 하고 왼쪽을 슬쩍 보던 순간 시선이 멈췄다. ‘싱그럽다!’ 투박한 철제 선반과 얼음과 함께 있는 맥주, 잎 사이사이로 빛이 든 이름 모를 식물을 보는 순간 치밀어 오르던 감정이 모두 정리가 되었다.</P>
 
 			<img class="image-frame image-frame-round" src="images/IMG_7.JPG" width="500" alt="화분">
+
 		</div>
+		<!--// 페이지 -->
+
 	</body>
 </html>
