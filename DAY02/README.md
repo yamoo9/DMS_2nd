@@ -10,6 +10,18 @@
 
 -
 
+### Sublime Text - Sidebar Ehancement 단축키 설정
+
+`Default (Windows).sublime-keymap`
+
+```json
+[
+  { "keys": ["f12"], "command": "side_bar_open_in_browser" }
+]
+```
+
+-
+
 ### HTML 문서 구조화
 
 ```html
@@ -74,6 +86,12 @@
   </body>
 </html>
 ```
+
+-
+
+### HTML 엔티티 코드 (특수문자)
+
+- [entitycode.com](http://entitycode.com/)
 
 -
 
