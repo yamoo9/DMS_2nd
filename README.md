@@ -37,5 +37,6 @@
 
 ### 수업 요약
 
-1. [1일차 진행 내용 요약](DAY01/README.md)
-1. [2일차 진행 내용 요약](DAY02/README.md)
+1. [DMS 1일차 진행 내용 요약](DAY01/README.md)
+1. [DMS 2일차 진행 내용 요약](DAY02/README.md)
+1. [DMS 3일차 진행 내용 요약](DAY03/README.md)
