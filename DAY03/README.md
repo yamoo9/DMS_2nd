@@ -613,9 +613,12 @@ add_action('wp_enqueue_scripts', 'theme_enqueue_styles');
 - **편집 기능 강화**
   - [Beaver Builder plugin](https://wordpress.org/plugins/beaver-builder-lite-version/)<br>
   페이지 빌더 플러그인으로 손쉽게 페이지를 제작해준다.
+  - [Page Builder by SiteOrigin](https://wordpress.org/plugins/siteorigin-panels/)<br>
+  페이지 빌더 플러그인으로 손쉽게 페이지를 제작해준다.
   - [Black Studio TinyMCE Widget](https://wordpress.org/plugins/black-studio-tinymce-widget/)<br>
   비주얼 에디터를 위젯에 추가해준다.
-  - [Visual Composer(유료)](http://codecanyon.net/item/visual-composer-page-builder-for-wordpress/242431)
+  - [Visual Composer(유료)](http://codecanyon.net/item/visual-composer-page-builder-for-wordpress/242431)<br>
+  페이지 빌더 플러그인으로 손쉽게 페이지를 제작해준다.
   - [ConvertPlug(유료)](http://codecanyon.net/item/convertplug-wordpress-popups-plugin/14058953?clickthrough_id=723626107&redirect_back=true&ref=terranhax&s_phrase=&s_rank=60)
 
 - **성능 향상**
