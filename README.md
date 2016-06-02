@@ -15,12 +15,19 @@
 
 ### 텍스트 에디터 설정
 
-- [에디터, Sublime Text](http://www.sublimetext.com/3)
-- [패키지 컨트롤, Sublime Text Package Manager](https://packagecontrol.io/)
-- [Emmet, 빠른 코딩을 위한 도구](http://emmet.io/)
-- [IMESupport, Windows 환경 한글 입력 문제 해결 플러그인](https://packagecontrol.io/packages/IMESupport)
-- [SideBarEnhancements, 사이드바 강화 플러그인](https://packagecontrol.io/packages/SideBarEnhancements)
-- [ColorPicker, 컬러 선택 플러그인](https://packagecontrol.io/packages/ColorPicker)
+#### 에디터
+
+- [에디터, Sublime Text(무료 같은 유료)](http://www.sublimetext.com/3)
+- [아톰, Atom(무료)](https://atom.io/)
+
+#### 에디터 패키지
+
+- [〔ST〕 패키지 컨트롤, Sublime Text Package Manager](https://packagecontrol.io/)
+- [〔ST〕 IMESupport, Windows 환경 한글 입력 문제 해결 플러그인](https://packagecontrol.io/packages/IMESupport)
+- [〔ST〕 SideBarEnhancements, 사이드바 강화 플러그인](https://packagecontrol.io/packages/SideBarEnhancements)
+- [〔ST〕 ColorPicker, 컬러 선택 플러그인](https://packagecontrol.io/packages/ColorPicker)
+- [〔ST, ATOM〕 Emmet, 빠른 코딩을 위한 도구](http://emmet.io/)
+- [〔ATOM〕 Remote-FTP with 아톰](https://atom.io/packages/Remote-FTP)
 
 -
 
@@ -40,3 +47,4 @@
 1. [DMS 1일차 진행 내용 요약](DAY01/README.md)
 1. [DMS 2일차 진행 내용 요약](DAY02/README.md)
 1. [DMS 3일차 진행 내용 요약](DAY03/README.md)
+1. [DMS 4일차 진행 내용 요약](DAY04/README.md)
