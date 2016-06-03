@@ -31,6 +31,28 @@
 
 -
 
+#####Remote-FTP Config
+
+```json
+{
+    "protocol": "ftp",
+    "host": "example.com",
+    "port": 21,
+    "user": "user",
+    "pass": "pass",
+    "promptForPass": false,
+    "remote": "/",
+    "secure": false,
+    "secureOptions": null,
+    "connTimeout": 10000,
+    "pasvTimeout": 10000,
+    "keepalive": 10000,
+    "watch": []
+}
+```
+
+-
+
 ### 참고 자료
 
 - [브런치, 글이 작품이 되는 공간](https://brunch.co.kr/)
