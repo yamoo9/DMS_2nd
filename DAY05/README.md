@@ -17,6 +17,8 @@
 
 일반적으로 워드프레스는 루트 디렉터리(Root Directory)에 설치되지만, 경우에 따라 `/wp`, `/wordpress` 또는 다른 경로에 설치하기도 한다. 예를 들어 웹 호스팅 서비스 신청 과정에서 **워드프레스 자동 설치 옵션**을 선택시, `/wp` 또는 `/wordpress` 경로에 설치하도록 선택하는 경우가 있다. 이럴 경우 `www.my-domain.com/wp/` 또는 `www.my-domain.com/wordpress/` 처럼 사이트 URL 주소 뒤에 하위 디렉토리 경로를 입력해야 하는 번거로움이 발생한다. 이 문제를 해결하고자 워드프레스의 관리자 페이지에서 사이트 주소를 변경할 경우 사이트 접속 문제가 발생할 수 있다. (주의!)
 
+![01](assets/01.jpg)
+
 `알림판 > 설정 > 일반 메뉴` 아래 `워드프레스 주소(URL)`와 `사이트 주소(URL)`를 변경할 수 있는데 사이트 주소가 아닌 워드프레스 주소를 변경할 경우 오류가 발생할 수 있다.
 
 - **워드프레스 주소(URL)** WordPress 코어 어플리케이션 파일(예: `wp-config.php`, `wp-admin`, `wp-content`, `wp-includes`)이 포함된 디렉토리의 전체 URL 주소
@@ -47,13 +49,15 @@ You don't have permission to access / on this server.
 대부분의 웹 호스팅 업체에서 기본 서비스로 데이터베이스(DB) 복원 기능을 제공한다. Cafe24의 경우 자신의 계정에 로그인한 후,
 **DATA&DB복원/백업** 메뉴를 통해 이전 상태로 복원이 가능하다.
 
+![02](assets/02.jpg)
+
 DB 복원 기능을 제공하는 경우 이 방법으로 쉽게 복원할 수 있다. 다른 웹 호스팅 서비스도 비슷한 기능을 제공할 것이다.
 두 번째 방법을 사용하기 전에 DB 복원이 가능한지 확인해본다.
 
 #### 사이트 접속 문제 발생 시, DB를 복구하지 않고 임시로 문제를 해결하는 방법
 
 위에서 설명한 방법이 정상적인 복구 방법이지만, DB 접속이 어려울 경우 임시 방법으로 문제를 해결 할 수 있다. FTP에 접속하여 `wp-config.php` 파일을 열어
-`// ** MySQL settings – You can get this info from your web host **` 라인 바로 위에 아래 코드를 추가한다.
+`// ** MySQL settings – You can get this info from your web host ** //` 라인 바로 위에 아래 코드를 추가한다.
 
 ```php
 // 자신의 도메인 이름 뒤에 하위 디렉토리 이름을 추가한다.
@@ -62,12 +66,36 @@ DB 복원 기능을 제공하는 경우 이 방법으로 쉽게 복원할 수 �
 define('WP_HOME','http://www.my-domain.com/wordpress');
 // 워드프레스 사이트 주소(URL)
 define('WP_SITEURL','http://www.my-domain.com/wordpress');
+
+// ** MySQL settings - You can get this info from your web host ** //
 ```
 
 이렇게 하면 URL 주소를 변경하기 전으로 돌릴 수 있다. 이를 저장하고 업로드한 후 워드프레스 사이트에 접속하면 정상적으로 접속될 것이다.
 다만... 사이트 URL 주소와 워드프레스 URL 주소 설정은 편집할 수 없어진다. 이 방법은 어디까지나 임시 복구 방법임을 기억하라.
 
+-
 
+### 구매한 도메인에 웹 호스팅을 연결한 후, 워드프레스 포스팅 연결 링크 주소 문제
+
+> xxx.cafe24.com 사용자가 zzzz.com 도메인을 연결한 후,
+> 작성한 워드프레스 포스트 링크 연결 시 zzzz.com/my-post가 아닌 xxx.cafe24.com/my-post로 연결되는 상황.
+
+도메인 설정에서 웹 호스팅 업체의 네임서버를 정상적으로 설정했다면 `http://xxx.cafe24.com` 또는 `http://zzzz.com`으로 접속이 가능해진다.
+하지만 워드프레스는 `http://xxx.cafe24.com`에 설치하였기에 웹사이트 내의 모든 주소 체계가 `http://xxx.cafe24.com`을 기반으로 하게 된다.
+
+그런 이유로 웹사이트 내의 포스트 또는 메뉴 등의 링크를 클릭하면 원하는 `http://zzzz.com/my-post`이 아닌, `http://xxx.cafe24.com/my-post`로 주소가 표시되는 문제가 발생하게 된다.
+
+이 문제를 해결하려면 `알림판 > 설정 > 일반 메뉴` 아래 `워드프레스 주소(URL)`와 `사이트 주소(URL)`를 다음과 같이 수정한다.
+
+**Before**
+- 워드프레스 주소(URL) `http://xxx.cafe24.com/`
+- 사이트 주소(URL) `http://xxx.cafe24.com/`
+
+**After**
+- 워드프레스 주소(URL) `http://zzzz.com/`
+- 사이트 주소(URL) `http://zzzz.com/`
+
+이렇게 설정 변경하고 저장하면 웹사이트 내의 모든 주소 부분이 변경된 값으로 처리 된다. (MySQL 데이터베이스에 저장된 값을 변경)
 
 <!-- http://hwangc.com/how-to-move-wordpress-site-3-different-cases -->
 <!-- http://www.thewordcracker.com/basic/how-to-backup-wordpress-site/ -->
