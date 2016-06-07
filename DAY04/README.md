@@ -221,6 +221,11 @@ add_action('wp_enqueue_scripts', 'theme_enqueue_styles');
 - `정적인 전면 페이지` 설정
 - `Header Slider` 설정
 
+###### 그래픽 리소스 & 이미지 최적화
+
+- [resourcecards, 유용한 리소스 카드](https://resourcecards.com/)
+- [tinyjpg, 이미지 최적화 온라인 도구](https://tinyjpg.com/)
+
 -
 
 #### 6-6. 푸터 설정
