@@ -1,8 +1,6 @@
 ###### DMS(Digital Marketing School), Fast Campus
 # Front-End Develop Course ─ DAY 04
 
----
-
 ### 4. 워드프레스 테마
 
 자신만의 웹사이트를 제작하는 것은 고도화된 전문 지식을 요구합니다. 하지만 워드프레스에서는 누구나 손쉽게 웹사이트를 만들 수 있도록 테마를 지원한다. 개발자가 만든 테마를 자신의 워드프레스에 설치하는 것만으로도 웹사이트 모양(Appearance)이 갖춰지기 때문. 테마는 종류가 워낙 다양하기 때문에 자신이 하고자 하는 서비스에 적합한 유형의 테마를 선택할 필요가 있다. 문제는 적절한 테마를 선택하는 것만으로 100% 자신이 원하는 모양을 갖출 수 없다는 것이다. HTML/CSS에 대한 지식이 없다면 원하는 모양을 만들 수 없다. 뿐만 아니라 관리자 페이지에 기본 지원되지 않는 기능을 제공하려면 PHP를 다룰 수 있어야 한다.
@@ -400,11 +398,3 @@ A 웹 호스팅 서비스에는 만족했지만, 도메인을 변경하고 싶�
 
 1. 현재 도메인의 네임서버 정보 삭제
 1. 새로운 도메인의 네임서버를 현재 호스팅 서버에서 제공하는 것으로 변경
-
-<!-- http://hwangc.com/how-to-move-wordpress-site-3-different-cases -->
-<!-- http://www.thewordcracker.com/basic/how-to-backup-wordpress-site/ -->
-<!-- http://www.thewordcracker.com/basic/how-to-backup-wordpress-site-2/ -->
-
----
-
-<!-- 워드프레스 청소하고 퍼포먼스: http://hwangc.com/cleanup-wordpress/ -->
