@@ -6,10 +6,6 @@
 1. [워드프레스 기본기 다지기(실습)](https://github.com/yamoo9/DMS_2nd/blob/master/DAY03/README.md#3-워드프레스-기본기-다지기실습)
 1. [워드프레스 테마](https://github.com/yamoo9/DMS_2nd/blob/master/DAY04/README.md#4-워드프레스-테마)
 1. [워드프레스 플러그인](https://github.com/yamoo9/DMS_2nd/blob/master/DAY04/README.md#5-플러그인)
-1. [테마를 활용한 워드프레스 사이트 제작 DEMO](https://github.com/yamoo9/DMS_2nd/blob/master/DAY04/README.md#6-wordpress-웹-사이트-제작-demo)
-1. [워드프레스 유료 테마](https://github.com/yamoo9/DMS_2nd/blob/master/DAY04/README.md#7-유료-테마)
-1. [워드프레스 백업/복구](https://github.com/yamoo9/DMS_2nd/blob/master/DAY04/README.md#8-워드프레스wordpress-백업복구)
-1. [워드프레스 호스팅/도메인 이전](https://github.com/yamoo9/DMS_2nd/blob/master/DAY04/README.md#9-호스팅도메인-이전)
 
 -
 

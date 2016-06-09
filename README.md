@@ -71,3 +71,4 @@
 1. [DMS 3일차 진행 내용 요약](DAY03/README.md)
 1. [DMS 4일차 진행 내용 요약](DAY04/README.md)
 1. [DMS 5일차 진행 내용 요약](DAY05/README.md)
+1. [DMS 6일차 진행 내용 요약](DAY06/README.md)
