@@ -97,3 +97,11 @@ function yamoo9_excerpt($text, $excerpt){
 ```php
 <address>Copyright &copy; <?php the_time('Y'); ?>, <a href="http://yamoo9.net/">yamoo9.net</a>. All Right Reverved.</address>
 ```
+
+-
+
+### CSS 우선 순위 규칙
+
+![speciphicity](http://blog4coders.com/wp-content/uploads/2014/07/speciphicity.jpg)
+
+![specificity1](https://3oil7x2swx3d30yjgq23wmyu-wpengine.netdna-ssl.com/wp-content/uploads/2015/05/specificity1.png)
