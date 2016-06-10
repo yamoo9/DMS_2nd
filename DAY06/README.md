@@ -95,7 +95,7 @@ function yamoo9_excerpt($text, $excerpt){
 ### 현재 년도 화면에 출력
 
 ```php
-<address>Copyright &copy; <?php the_time('Y'); ?>, <a href="http://yamoo9.net/">yamoo9.net</a>. All Right Reverved.</address>
+<address>Copyright &copy; <?php echo date('Y'); ?>, <a href="http://yamoo9.net/">yamoo9.net</a>. All Right Reverved.</address>
 ```
 
 -
